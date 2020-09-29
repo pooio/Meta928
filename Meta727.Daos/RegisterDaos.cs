@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using MetaShare.Common.Core.Daos;
+using Meta727.Daos.Interfaces;
 /*add customized code between this region*/
 /*add customized code between this region*/
 
@@ -19,6 +20,7 @@ namespace Meta727.Daos
 
 		public static void Register(DaoFactory factory, bool isRegister, Type sqlDialect, Type sqlDialectVersion)
 		{
+			factory.Register(typeof(IqwerDao), new qwerDao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
 			/*add customized code between this region*/
 			/*add customized code between this region*/
 		}

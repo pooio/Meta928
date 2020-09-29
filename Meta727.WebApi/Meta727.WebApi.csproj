@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F4F50C5A-A5D9-47D8-B241-602B3E0193C3}</ProjectGuid>
+    <ProjectGuid>{0518A683-0DAB-4D6B-83C3-6914C2A1F37C}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -142,6 +142,8 @@
 
     <Compile Include="Controllers\ObjectVersionApiController.cs" />
 
+    <Compile Include="Controllers\qwerApiController.cs" />
+
     <Compile Include="Controllers\Utility.cs" />
 
     <Compile Include="Models\RequestData.cs" />
@@ -180,22 +182,22 @@
 <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{2DAD5848-637F-4CCA-92ED-E59F1E2D910A}</Project>
+      <Project>{CDBFB8DB-409B-4C63-94FA-08C0B0671789}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Daos\Meta727.Daos.csproj">
-      <Project>{A4637085-D545-491A-8E51-87644D6F13B2}</Project>
+      <Project>{0B7F8618-CD18-4A06-A8B8-A80820520314}</Project>
       <Name>Meta727.Daos</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services.Interfaces\Meta727.Services.Interfaces.csproj">
-      <Project>{58615345-E383-4FAA-8610-6E9142A0EA32}</Project>
+      <Project>{B9383F4F-0DD6-4E53-822F-33A0D9DD05C0}</Project>
       <Name>Meta727.Services.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services\Meta727.Services.csproj">
-      <Project>{6A0FD02E-430D-466C-93A8-64914FACF04D}</Project>
+      <Project>{F55327B5-449C-4AB3-9973-808F93EC5C96}</Project>
       <Name>Meta727.Services</Name>
     </ProjectReference>
 

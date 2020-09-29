@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" />
@@ -60,7 +60,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="@(this.Url.Action("Index", new { Controller="Workspace",area=""}))">
+            <a class="navbar-brand" href="@(this.Url.Action("Index", new { Controller="qwer",area=""}))">
                 <img src="~/Content/Images/logo.png" class="m_left" />&nbsp;
                 <span>Meta727</span>
             </a>
@@ -92,6 +92,7 @@
     <nav class="navbar-default navbar-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu" style="margin-bottom: 20px;">
+	                <li data-id="qwer">@Html.ActionLink("qwer", "Index", new { Controller="qwer",area=""})</li>
             </ul>
         </div>
     </nav>

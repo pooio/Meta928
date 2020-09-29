@@ -1,4 +1,4 @@
-﻿using System.Web;
+using System.Web;
 using System.Web.Mvc;
 using SSO.Utilities;
 /*add customized code between this region*/
@@ -15,7 +15,7 @@ namespace Meta727.Web.Controllers
             {
                 return this.Redirect(HttpUtility.UrlDecode(model.OrigUrl));
             }
-            return this.RedirectToRoute(new { Controller = "Workspace", Action = "index", Area =""});
+            return this.RedirectToRoute(new { Controller = "qwer", Action = "index", Area =""});
         }
 
         protected override ActionResult ToActionLogined(LoginModelBase model)
@@ -24,7 +24,7 @@ namespace Meta727.Web.Controllers
             {
                 return this.Redirect(HttpUtility.UrlDecode(model.OrigUrl));
             }
-            return this.RedirectToRoute(new { Controller = "Workspace", Action = "index", Area =""});
+            return this.RedirectToRoute(new { Controller = "qwer", Action = "index", Area =""});
         }/*add customized code between this region*/
 /*add customized code between this region*/
     }

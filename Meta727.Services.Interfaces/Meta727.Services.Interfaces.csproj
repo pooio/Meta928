@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{58615345-E383-4FAA-8610-6E9142A0EA32}</ProjectGuid>
+    <ProjectGuid>{B9383F4F-0DD6-4E53-822F-33A0D9DD05C0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Services.Interfaces</RootNamespace>
@@ -55,13 +55,15 @@
 
     <Compile Include="Properties\AssemblyInfo.cs" />
 
+    <Compile Include="IqwerService.cs" />
+
     <!--add customized code between this region-->
     <!--add customized code between this region-->
   </ItemGroup>
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{2DAD5848-637F-4CCA-92ED-E59F1E2D910A}</Project>
+      <Project>{CDBFB8DB-409B-4C63-94FA-08C0B0671789}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
