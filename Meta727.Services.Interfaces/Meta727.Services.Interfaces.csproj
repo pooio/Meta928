@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AB4FB68A-1194-48DA-BEB9-EF6184CB390E}</ProjectGuid>
+    <ProjectGuid>{7135D152-5A20-4601-B5AB-E7D1EB5DF497}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Services.Interfaces</RootNamespace>
@@ -63,7 +63,7 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{E9371937-1F13-446D-8675-5B4CE503E421}</Project>
+      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 

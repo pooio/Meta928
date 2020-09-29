@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5D06E397-9ED7-47CD-9BF2-29FA3C6159AF}</ProjectGuid>
+    <ProjectGuid>{E4D9FACC-7E04-46B3-AFAE-0C2C55DC55BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Services</RootNamespace>
@@ -65,17 +65,17 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Daos.Interfaces\Meta727.Daos.Interfaces.csproj">
-      <Project>{0D63CE0E-4A81-4742-991B-800D3E9B668D}</Project>
+      <Project>{35374D31-3773-4EA5-8C93-C382ED940839}</Project>
       <Name>Meta727.Daos.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{E9371937-1F13-446D-8675-5B4CE503E421}</Project>
+      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services.Interfaces\Meta727.Services.Interfaces.csproj">
-      <Project>{AB4FB68A-1194-48DA-BEB9-EF6184CB390E}</Project>
+      <Project>{7135D152-5A20-4601-B5AB-E7D1EB5DF497}</Project>
       <Name>Meta727.Services.Interfaces</Name>
     </ProjectReference>
 

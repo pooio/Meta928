@@ -38,9 +38,9 @@ namespace Meta727.Daos.Tests
 		{
 			qwer item = new qwer
 			{
-				Name = string.Empty, 
 				Phone = false, 
 				Description = string.Empty, 
+				Name = string.Empty, 
 			};
 			int affectedRows = this.Dao.Insert(this.Context, item);
 			Assert.AreEqual(1, affectedRows);
@@ -58,7 +58,7 @@ namespace Meta727.Daos.Tests
 			qwer item = qwerTestData.Createqwer1();
 			qwer beforeUpdate = this.Dao.SelectById(this.Context, item);
 			Assert.IsNotNull(beforeUpdate);
-			beforeUpdate.Name = string.Empty;
+			beforeUpdate.Phone = false;
 
 			this.Dao.Update(this.Context, beforeUpdate);
 

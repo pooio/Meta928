@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3A69C185-2F5B-48AC-906A-A2472C93808D}</ProjectGuid>
+    <ProjectGuid>{3395129B-3142-4C51-8CE8-FA6F27BD3F15}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Services.Tests</RootNamespace>
@@ -65,27 +65,27 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Services\Meta727.Services.csproj">
-      <Project>{5D06E397-9ED7-47CD-9BF2-29FA3C6159AF}</Project>
+      <Project>{E4D9FACC-7E04-46B3-AFAE-0C2C55DC55BA}</Project>
       <Name>Meta727.Services</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services.Interfaces\Meta727.Services.Interfaces.csproj">
-      <Project>{AB4FB68A-1194-48DA-BEB9-EF6184CB390E}</Project>
+      <Project>{7135D152-5A20-4601-B5AB-E7D1EB5DF497}</Project>
       <Name>Meta727.Services.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{E9371937-1F13-446D-8675-5B4CE503E421}</Project>
+      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.TestData\Meta727.TestData.csproj">
-      <Project>{A1F355DC-D17F-4CD9-99E9-286C463B86BF}</Project>
+      <Project>{A2A083A4-C5F2-45B2-8A40-F9A0652B0709}</Project>
       <Name>Meta727.TestData</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Daos.Mocks\Meta727.Daos.Mocks.csproj">
-      <Project>{817E2EC4-DE0E-44CB-848D-22B758D3EDB3}</Project>
+      <Project>{DAF63E49-3674-45BE-B029-2E46EEB73B16}</Project>
       <Name>Meta727.Daos.Mocks</Name>
     </ProjectReference>
 

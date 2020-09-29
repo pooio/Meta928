@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{07E72567-CFD5-4544-8ECF-06CE9030E282}</ProjectGuid>
+    <ProjectGuid>{05EE1821-8242-49E4-B0AC-EA23D8264272}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Daos</RootNamespace>
@@ -67,12 +67,12 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Daos.Interfaces\Meta727.Daos.Interfaces.csproj">
-      <Project>{0D63CE0E-4A81-4742-991B-800D3E9B668D}</Project>
+      <Project>{35374D31-3773-4EA5-8C93-C382ED940839}</Project>
       <Name>Meta727.Daos.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{E9371937-1F13-446D-8675-5B4CE503E421}</Project>
+      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
