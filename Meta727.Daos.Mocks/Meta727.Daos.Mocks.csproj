@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2E4050E2-0747-4854-9ECE-6158310F8348}</ProjectGuid>
+    <ProjectGuid>{817E2EC4-DE0E-44CB-848D-22B758D3EDB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Daos.Mocks</RootNamespace>
@@ -65,17 +65,17 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Daos.Interfaces\Meta727.Daos.Interfaces.csproj">
-      <Project>{8407F371-27AE-456C-A988-9835A8E3FF7F}</Project>
+      <Project>{0D63CE0E-4A81-4742-991B-800D3E9B668D}</Project>
       <Name>Meta727.Daos.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{CDBFB8DB-409B-4C63-94FA-08C0B0671789}</Project>
+      <Project>{E9371937-1F13-446D-8675-5B4CE503E421}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.TestData\Meta727.TestData.csproj">
-      <Project>{3A887EF8-27E7-4E93-A4DE-FF88DB6DE933}</Project>
+      <Project>{A1F355DC-D17F-4CD9-99E9-286C463B86BF}</Project>
       <Name>Meta727.TestData</Name>
     </ProjectReference>
 
