@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7135D152-5A20-4601-B5AB-E7D1EB5DF497}</ProjectGuid>
+    <ProjectGuid>{CB9E50DA-133E-48BC-B39A-CB04D35BCB1D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Services.Interfaces</RootNamespace>
@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
 
+    <Compile Include="ERP1\Iqwer_CopyService.cs" />
+
     <Compile Include="Properties\AssemblyInfo.cs" />
 
     <Compile Include="IqwerService.cs" />
@@ -63,7 +65,7 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
+      <Project>{A9FE2890-3123-4B95-987B-8A67057EE217}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 

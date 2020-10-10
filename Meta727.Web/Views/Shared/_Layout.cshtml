@@ -93,6 +93,12 @@
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu" style="margin-bottom: 20px;">
 	                <li data-id="qwer">@Html.ActionLink("qwer123", "Index", new { Controller="qwer",area=""})</li>
+	                <li data-id="ERP1">
+		                <a>ERP1</a><span class="icon-arrowdown arrow"></span>
+		                <ul class="nav collapse" >
+			                <li data-id="qwer_Copy">@Html.ActionLink("qwer_Copy", "Index", new { Controller="qwer_Copy",area="ERP1"})</li>
+		                </ul>
+	                </li>
             </ul>
         </div>
     </nav>

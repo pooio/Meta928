@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D286D347-9FC0-4DE1-97BE-69A75D5E9BC7}</ProjectGuid>
+    <ProjectGuid>{A28DB67B-7B98-4524-9EB1-8DA43102079D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -138,6 +138,10 @@
   </ItemGroup>
   <ItemGroup>
 
+    <Compile Include="Controllers\ERP1\ERP1AreaRegistration.cs" />
+
+    <Compile Include="Controllers\ERP1\qwer_CopyApiController.cs" />
+
     <Compile Include="Controllers\CommonApiController.cs" />
 
     <Compile Include="Controllers\ObjectVersionApiController.cs" />
@@ -182,22 +186,22 @@
 <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
+      <Project>{A9FE2890-3123-4B95-987B-8A67057EE217}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Daos\Meta727.Daos.csproj">
-      <Project>{05EE1821-8242-49E4-B0AC-EA23D8264272}</Project>
+      <Project>{A860D208-1C60-474A-AF17-E2EC4497F2DA}</Project>
       <Name>Meta727.Daos</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services.Interfaces\Meta727.Services.Interfaces.csproj">
-      <Project>{7135D152-5A20-4601-B5AB-E7D1EB5DF497}</Project>
+      <Project>{CB9E50DA-133E-48BC-B39A-CB04D35BCB1D}</Project>
       <Name>Meta727.Services.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services\Meta727.Services.csproj">
-      <Project>{E4D9FACC-7E04-46B3-AFAE-0C2C55DC55BA}</Project>
+      <Project>{38085F8B-9CD7-4833-A54C-6E0C27F9FA6C}</Project>
       <Name>Meta727.Services</Name>
     </ProjectReference>
 

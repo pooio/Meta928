@@ -46,6 +46,26 @@
 			</div><div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
+						<label for="Num"  class="col-md-4 from-title" >Num</label>
+						<div class="col-md-8 from-cont">
+							@Html.TextBoxFor(model => model.Num, new { @class = "form-control" })
+							@Html.ValidationMessageFor(model => model.Num)
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="Price"  class="col-md-4 from-title" >Price</label>
+						<div class="col-md-8 from-cont">
+							@Html.TextBoxFor(model => model.Price, new { @class = "form-control" })
+							@Html.ValidationMessageFor(model => model.Price)
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
 						<label for="Phone"  class="col-md-4 from-title" >Phone</label>
 						<div class="col-md-8 from-cont">
 							@Html.EditorFor(model => model.Phone, new { @class = "form-control" } )

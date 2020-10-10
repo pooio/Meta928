@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E4D9FACC-7E04-46B3-AFAE-0C2C55DC55BA}</ProjectGuid>
+    <ProjectGuid>{38085F8B-9CD7-4833-A54C-6E0C27F9FA6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Services</RootNamespace>
@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
 
+    <Compile Include="ERP1\qwer_CopyService.cs" />
+
     <Compile Include="Properties\AssemblyInfo.cs" />
 
     <Compile Include="qwerService.cs" />
@@ -65,17 +67,17 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Daos.Interfaces\Meta727.Daos.Interfaces.csproj">
-      <Project>{35374D31-3773-4EA5-8C93-C382ED940839}</Project>
+      <Project>{C1D7DEA1-325E-4228-BDB0-4AC7F8FE2C54}</Project>
       <Name>Meta727.Daos.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
+      <Project>{A9FE2890-3123-4B95-987B-8A67057EE217}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services.Interfaces\Meta727.Services.Interfaces.csproj">
-      <Project>{7135D152-5A20-4601-B5AB-E7D1EB5DF497}</Project>
+      <Project>{CB9E50DA-133E-48BC-B39A-CB04D35BCB1D}</Project>
       <Name>Meta727.Services.Interfaces</Name>
     </ProjectReference>
 

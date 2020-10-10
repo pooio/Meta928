@@ -10,6 +10,8 @@
             <thead>
             <tr>
 		<th class="text-left">Name</th>
+		<th class="text-right">Num</th>
+		<th class="text-left">Price</th>
 		<th class="text-center">Phone</th>
                 <th>Actions</th>
             </tr>
@@ -22,6 +24,12 @@
                 <tr>
 			<td  class="text-left">
 				@Html.DisplayFor(modelItem => qwerItem.Name)
+			</td>
+			<td class="text-right">
+				@Html.DisplayFor(modelItem => qwerItem.Num)
+			</td>
+			<td class="text-left">
+				@Html.DisplayFor(modelItem => qwerItem.Price)
 			</td>
 			<td class="text-center">
 				@Html.DisplayFor(modelItem => qwerItem.Phone)

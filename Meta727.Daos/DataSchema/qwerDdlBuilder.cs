@@ -8,7 +8,7 @@ namespace Meta727.Daos.DataSchema
 	{
 		public override string GetSqlCreateTable()
 		{
-			return @"CREATE TABLE qwer(Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,Phone bit,Description nvarchar(255),Name nvarchar(255),Description nvarchar(255),Owner_Id int,Entity_Status int)";
+			return @"CREATE TABLE qwer(Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,Price nvarchar(255),Description nvarchar(255),Phone bit,Name nvarchar(255),Num int,Description nvarchar(255),Owner_Id int,Entity_Status int)";
 		}
 
 		public override string GetSqlDropTable()

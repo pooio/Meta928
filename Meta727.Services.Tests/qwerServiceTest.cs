@@ -26,12 +26,12 @@ namespace Meta727.Services.Tests
 		{
 			qwer itemTest = qwerTestData.Createqwer1();
 
-			List<qwer> find = this.Service.SelectBy(new qwer {Phone = itemTest.Phone}, new List<string> {"Phone"});
+			List<qwer> find = this.Service.SelectBy(new qwer {Price = itemTest.Price}, new List<string> {"Price"});
 			Assert.IsNotNull(find);
 
 			foreach (qwer item in find)
 			{
-				Assert.AreEqual(itemTest.Phone, item.Phone);
+				Assert.AreEqual(itemTest.Price, item.Price);
 			}
 		}
 
@@ -62,9 +62,11 @@ namespace Meta727.Services.Tests
 		{
 			qwer itemTest = new qwer
 			{
-				Phone = false, 
+				Price = string.Empty, 
 				Description = string.Empty, 
+				Phone = false, 
 				Name = string.Empty, 
+				Num = 0, 
 			};
 
 			int affectedRows = this.Service.Insert(itemTest, true);
@@ -80,7 +82,7 @@ namespace Meta727.Services.Tests
 			qwer itemTest = qwerTestData.Createqwer1();
 
 			qwer beforeUpdate = this.Service.SelectById(new qwer {Id = itemTest.Id});
-			beforeUpdate.Phone = false ;
+			beforeUpdate.Price = string.Empty ;
 			this.Service.Update(beforeUpdate, true);
 
 			qwer afterUpdate = this.Service.SelectById(new qwer {Id = itemTest.Id});

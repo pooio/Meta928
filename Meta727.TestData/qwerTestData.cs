@@ -28,9 +28,11 @@ namespace Meta727.TestData
 			return new qwer
 			{
 					Id = 1, 
-					Phone = false, 
+					Price = string.Empty, 
 					Description = string.Empty, 
+					Phone = false, 
 					Name = string.Empty, 
+					Num = 0, 
 			};
 		}
 		 public static qwer Createqwer2()
@@ -38,9 +40,11 @@ namespace Meta727.TestData
 			return new qwer
 			{
 					Id = 2, 
-					Phone = false, 
+					Price = string.Empty, 
 					Description = string.Empty, 
+					Phone = false, 
 					Name = string.Empty, 
+					Num = 0, 
 			};
 		}
 		 public static qwer Createqwer3()
@@ -48,16 +52,20 @@ namespace Meta727.TestData
 			return new qwer
 			{
 					Id = 3, 
-					Phone = false, 
+					Price = string.Empty, 
 					Description = string.Empty, 
+					Phone = false, 
 					Name = string.Empty, 
+					Num = 0, 
 			};
 		}
 		public static void AssertAreEqual(qwer expected, qwer actual)
 		{
-			Assert.AreEqual(expected.Phone, actual.Phone);
+			Assert.AreEqual(expected.Price, actual.Price);
 			Assert.AreEqual(expected.Description, actual.Description);
+			Assert.AreEqual(expected.Phone, actual.Phone);
 			Assert.AreEqual(expected.Name, actual.Name);
+			Assert.AreEqual(expected.Num, actual.Num);
 		}
 		/*add customized code between this region*/
 		/*add customized code between this region*/

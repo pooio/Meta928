@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3395129B-3142-4C51-8CE8-FA6F27BD3F15}</ProjectGuid>
+    <ProjectGuid>{BD5BF4A2-548B-42DA-BA70-F7A4AF5F8816}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta727.Services.Tests</RootNamespace>
@@ -55,6 +55,8 @@
 
     <Compile Include="Common\CommonServiceTest.cs" />
 
+    <Compile Include="ERP1\qwer_CopyServiceTest.cs" />
+
     <Compile Include="Properties\AssemblyInfo.cs" />
 
     <Compile Include="qwerServiceTest.cs" />
@@ -65,27 +67,27 @@
   <ItemGroup>
 
     <ProjectReference Include="..\Meta727.Services\Meta727.Services.csproj">
-      <Project>{E4D9FACC-7E04-46B3-AFAE-0C2C55DC55BA}</Project>
+      <Project>{38085F8B-9CD7-4833-A54C-6E0C27F9FA6C}</Project>
       <Name>Meta727.Services</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Services.Interfaces\Meta727.Services.Interfaces.csproj">
-      <Project>{7135D152-5A20-4601-B5AB-E7D1EB5DF497}</Project>
+      <Project>{CB9E50DA-133E-48BC-B39A-CB04D35BCB1D}</Project>
       <Name>Meta727.Services.Interfaces</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Entities\Meta727.Entities.csproj">
-      <Project>{5107E726-2EF2-4E57-B5F8-EFCB72547B85}</Project>
+      <Project>{A9FE2890-3123-4B95-987B-8A67057EE217}</Project>
       <Name>Meta727.Entities</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.TestData\Meta727.TestData.csproj">
-      <Project>{A2A083A4-C5F2-45B2-8A40-F9A0652B0709}</Project>
+      <Project>{D226A9B3-E741-4561-943A-FADEA64AF2A0}</Project>
       <Name>Meta727.TestData</Name>
     </ProjectReference>
 
     <ProjectReference Include="..\Meta727.Daos.Mocks\Meta727.Daos.Mocks.csproj">
-      <Project>{DAF63E49-3674-45BE-B029-2E46EEB73B16}</Project>
+      <Project>{C9C84287-D070-465C-96D0-7395418F2DC8}</Project>
       <Name>Meta727.Daos.Mocks</Name>
     </ProjectReference>
 

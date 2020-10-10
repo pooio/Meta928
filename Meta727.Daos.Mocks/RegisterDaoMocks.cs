@@ -1,4 +1,6 @@
 using MetaShare.Common.Core.Daos;
+using Meta727.Daos.Interfaces.ERP1;
+using Meta727.Daos.Mocks.ERP1;
 using Meta727.Daos.Interfaces;
 /*add customized code between this region*/
 /*add customized code between this region*/
@@ -19,6 +21,7 @@ namespace Meta727.Daos.Mocks
 
 		public static void Register(DaoFactory factory, bool isRegister)
 		{
+			factory.Register(typeof(Iqwer_CopyDao), new qwer_CopyDaoMock(), isRegister);
 			factory.Register(typeof(IqwerDao), new qwerDaoMock(), isRegister);
 			/*add customized code between this region*/
 			/*add customized code between this region*/
