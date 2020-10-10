@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using MetaShare.Common.Core.Entities;
 /*add customized code between this region*/
+using System.IO;
 /*add customized code between this region*/
 
 namespace Meta727.Web.Models
