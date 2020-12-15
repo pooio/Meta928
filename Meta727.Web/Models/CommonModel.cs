@@ -16,16 +16,7 @@ namespace Meta727.Web.Models
         public EntityStatus EntityStatus { get; set; }
         public int OwnerId { get; set; }
 
-        public virtual void PopulateFrom(TEntity entity)
-        {
-            if (entity == null) return;
-            this.Id = entity.Id;
-            this.Name = entity.Name;
-            this.Description = entity.Description;
-            this.EntityStatus = entity.EntityStatus;
-            this.OwnerId = entity.OwnerId;
-        }
-
+       
         public virtual void PopulateTo(TEntity entity)
         {
             if (entity == null) return;
@@ -47,6 +38,16 @@ namespace Meta727.Web.Models
             return common;
         }
 	/*add customized code between this region*/
+	 public virtual void PopulateFrom(TEntity entity)
+        {
+            if (entity == null) return;
+            this.Id = entity.Id;
+            this.Name = entity.Name;
+            this.Description = entity.Description;
+            this.EntityStatus = entity.EntityStatus;
+            this.OwnerId = entity.OwnerId;
+        }
+
 	/*add customized code between this region*/
 
 	}
