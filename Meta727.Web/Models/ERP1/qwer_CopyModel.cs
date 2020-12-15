@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using Meta727.Entities.ERP1;
-using System.Data;
 /*add customized code between this region*/
 using System.IO;
 /*add customized code between this region*/
@@ -13,10 +12,16 @@ namespace Meta727.Web.Models.ERP1
 	{
 		public bool Phone {get; set;}
 		public string Price {get; set;}
-		public string Num {get; set;}
+		public int Num {get; set;}
 
 		public override void PopulateFrom(qwer_Copy entity)
 		{
+			if (entity == null) return;
+			base.PopulateFrom(entity);
+
+			this.Phone = entity.Phone;
+			this.Price = entity.Price;
+			this.Num = entity.Num;
 			/*add customized code between this region*/
 			
 			if (entity == null) return;
